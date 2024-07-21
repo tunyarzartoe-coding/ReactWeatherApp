@@ -51,11 +51,11 @@ body {
 }
 
 .SearchEngine button {
-  width: 78px; /* Updated */
-  height: 44px; /* Updated */
+  width: 78px;
+  height: 44px; 
   border: none;
-  border-radius: 9%; /* Updated */
-  background-color: #84cef5; /* Updated */
+  border-radius: 9%; 
+  background-color: #84cef5; 
   color: #fff;
   font-size: 20px;
   outline: none;
@@ -206,11 +206,10 @@ body {
   color: #a94b7e;
 }
 
-/* Desktop view */
 @media screen and (min-width: 768px) {
   .App {
     margin-top: 50px;
-    margin-bottom: 100px; /* Increased margin for better spacing */
+    margin-bottom: 100px; 
   }
 
   .credit {
@@ -228,7 +227,7 @@ body {
   .App {
     width: 80%;
     padding: 20px;
-    margin-bottom: 80px; /* Adjusted margin for better spacing */
+    margin-bottom: 80px; 
   }
 
   .SearchEngine input {
@@ -302,12 +301,11 @@ body {
   }
 }
 
-/* Mobile view */
 @media screen and (max-width: 480px) {
   .App {
     width: 80%;
     padding: 10px;
-    margin-bottom: 100px; /* Increased margin for better spacing */
+    margin-bottom: 100px; 
   }
 
   .SearchEngine input {
@@ -345,7 +343,7 @@ body {
   }
 
   .day {
-    flex: 2 2 calc(50% - 6px); /* Adjusted flex basis and margin */
+    flex: 2 2 calc(50% - 6px); 
     padding: 3px;
     margin: 3px;
   }
@@ -375,4 +373,36 @@ body {
     font-size: 14px;
     width: 100%;
   }
+  
+}
+.footer {
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  background: linear-gradient(-60deg, rgb(16, 24, 65), rgb(32, 43, 96));
+  border-top: 1px solid #ffffff20;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-link {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  width: auto;
+  height: 15px;
+  margin: 0 5px;
+  vertical-align: middle;
 }
